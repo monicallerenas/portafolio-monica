@@ -69,9 +69,7 @@ p{
 	font-size: 22px;
 	color:#BE796A;
 }
-.cv{
-	color:#202859!important;
-}
+
 .p-sobremi{
 	font-size: 30px;
 }
@@ -217,4 +215,8 @@ hr {
 h4 {
 	color: #FFFFFF !important;
 	padding:2%;
+}
+.cv{
+	color: green !important;
+	margin-right: 5%;
 }
