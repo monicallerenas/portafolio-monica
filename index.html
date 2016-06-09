@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>portafolio</title>
+
+   <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
 </head>
   <body>
-  	<section><!--section back-->
+  	
+  	<section id="inicio">
+  	<nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+ 
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#inicio">Inicio</a></li>
+                <li class="active"><a href="#Sobre mí">Sobre mí</a></li>
+                <li class="active"><a href="#banner">Skills</a></li>
+                <li class="active"><a href="#banner2">Proyectos</a></li>
+                <li class="active"><a href="#contactame">Contactame</a></li>
+            </ul>
+        </div>
+</nav>    <!--section back-->
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-lg-12">
@@ -17,213 +39,280 @@
 					<div class="row centered">
 						<div class="col-xs-12 col-lg-12">
 							<div class="titu">
-								<h1>Mónica Llerenas</h1>
-									<p class="name">Web Designer | Front-end |<br> Marketing Digital</p>
+								<p class="name"><b>Mónica Llerenas</b></p>
+									<p class="name-especial"><b>Marketing Digital | Front-end</b></p>
 							</div>
-						</div><!--/.col-lg-12 -->
-					</div><!--/.row -->
-				</div><!--/.container -->
-			</div>
-		</div>
-	</div>
-	</section>
-	<section><!--about me-->
-		<div class="fondo-about">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-lg-12">
-					<p class="p-subt">About me</p>
-					<br>
-  					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    					<!-- carrousel-->
-    					<ol class="carousel-indicators">
-    					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    					  <li data-target="#myCarousel" data-slide-to="1"></li>
-    					  <li data-target="#myCarousel" data-slide-to="2"></li>
-    					</ol>
-    					<div class="carousel-inner" role="listbox">
-    				    	<div class="item active">
-    						    <img src="images/coffee.jpg" alt="Chania" width="460" height="345">
-    						</div>
-							<div class="item">
-    						    <img src="images/coffee.jpg" alt="Chania" width="460" height="345">
-    						</div>
-    						<div class="item">
-      						    <img src="images/coffee.jpg" alt="Flower" width="460" height="345">
-      						</div>
-    					</div>
-							<!-- Left and right controls -->
-    						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    						  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    						  <span class="sr-only">Previous</span>
-    						</a>
-    						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    						  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    						  <span class="sr-only">Next</span>
-    						</a>
-  					</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-		<div class="parrafo">
-		<div class="container-fluid sep about hidden-xs " data-stellar-background-ratio="0.5"></div>
+	</section>
+	<section id="Sobre mí"><!--about me-->
+	<div class="">
+		<div class="container">
+			<div class="row fondo-about">
+				<div class="col-xs-12 col-lg-12">
+					<p class="titulos"><b>Sobre mí</b></b></p>
+					<hr>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-lg-3">
+						<div class="sobre-mi">
+							<img class="foto" src="images/yo.jpg">
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-9 text-left">
+						<p class="p-sobremi"><b>Entusiata y comprometida en cada proyecto que emprendo. Soy una persona apasionada por las ventas, la negociación y el trato directo con la gente. Estar en continua comunicación para la resolución de problemas y alcanzar objetivos son unas de mis cualidades más importates como persona.</b>
+						<a href="cv-monica-llerenas.pdf"><p class="cv text-right">Ver C.V.</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="banner">
+			<div class="container-fluid"></div>
+		<div class="cuadro-skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-12">
+					<p class="titulos"><b>Skills</b></b>
+					<hr>
+				<div class="row mb-5">
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/html-5.png">
+						<div class="programa">
+							<p class="pro"><b>HTML 5</b><br>
+							<span>Avanzado</span> </p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/css-3.png">
+						<div class="programa">
+							<p class="pro"><b>CSS 3</b><br><span>Avanzado</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/sass.png">
+						<div class="programa">
+							<p class="pro"><b>SASS</b><br><span>Intermedio</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/javascript.png">
+						<div class="programa">
+							<p class="pro"><b>JAVASCRIPT</b><br><span>Básico</span></p>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="row mb-5">
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/jquery.png">
+						<div class="programa">
+							<p class="pro"><b>JQUERY</b><br><span>Básico</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/puzzle.png">
+						<div class="programa">
+							<p class="pro"><b>SCRATCH</b><br><span>Básico</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/github-sign1.png">
+						<div class="programa">
+							<p class="pro"><b>GITHUB</b><br><span>Avanzado</span></p>
+						</div>	
+					</div>
+					<div class="col-xs-6 col-lg-3 proc">
+						<img class="icon img-responsive" src="images/bootstrap.png">
+						<div class="programa">
+							<p class="pro"><b>BOOTSTRAP</b><br><span>Intermedio</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-5">
+					<div class="col-xs-6 col-lg-4 proc">
+						<img class="icon img-responsive" src="images/responsive.png">
+						<div class="programa">
+							<p class="pro"><b> WEB RESPONSIVE</b><br><span>Intermedio</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-4 proc">
+						<img class="icon img-responsive" src="images/viral-marketing.png">
+						<div class="programa">
+							<p class="pro"><b>MARKETING DIGITAL</b><br><span>Intermedio</span></p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-4 proc">
+						<img class="icon img-responsive" src="images/seo-tag.png">
+						<div class="programa">
+							<p class="pro"><b>MARKETING SEO</b><br><span>Básico</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<section><!--proyectos-->
+	<section id="banner2">
+		<div class="container-fluid"></div>  <!--proyectos-->
 		<div class="cuadro-work">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-12">
-					<p class="p-subt">Works</p>
-						<h2 class="subt"><b>"Bambini"</b></h2>
-						<p>A solo un mes de haber entrado a laboratoria 1er. hackaton (maratón de código) ganado en Epic Quenn en "Hack for equality."</p>
-						<a href="http://monicallerenas.github.io/Bambini" target="_blank"><img class="img-work" src="images/bambini.jpg"></a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-lg-12">
-						<p class="p-proyecto">Los proyectos que siguen fueron hechos en Laboratoria</p>
+					<p class="titulos"><b>Proyectos</b></p>
+					<hr>
+					<p class="subt text-center proyLab"><b>En Hackatoones<b></p>
 					<div class="row">
-						<div class="col-xs-12 col-lg-12">
-						<h2 class="subt"><b>"Accesorios Fashion"</b></h2>
-							<a href="http://monicallerenas.github.io/examen-fashion " target="_blank"><img class="img-work" src="images/fashion.png"></a>
-					
+						<div class="col-xs-12 col-lg-6">
+							<h3 class="subt"><b>"Bambini"</b></h3>
+								<p><b>A solo un mes de haber entrado a laboratoria, obtuvimos el 1er. Lugar en el "Hack for equality", creamos una idea y la transformamos en un juego para explicar la equidad de género"</b></p>
+								<br>
+  								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    					<!-- carrousel-->
+			    					<ol class="carousel-indicators">
+			    					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="1"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="2"></li>
+			    					</ol>
+			    					<div class="carousel-inner" role="listbox">
+			    				    	<div class="item active">
+			    						    <a href="http://monicallerenas.github.io/Bambini"><img src="images/proyectos/bambini.jpg" alt="Chania" width="460" height="450"></a>
+			    						</div>
+										<div class="item">
+			    						    <a href="http://monicallerenas.github.io/Bambini"><img src="images/proyectos/bambini2.jpg" alt="Chania" width="460" height="450"></a>
+			    						</div>
+			    						<div class="item">
+			      						    <a href="http://monicallerenas.github.io/Bambini"><img src="images/proyectos/bambini3.jpg" alt="Flower" width="460" height="450"></a>
+			      						</div>
+			    					</div>
+  								</div>
 						</div>
+					<div class="col-xs-12 col-lg-6">
+						<h3 class="subt"><b>"Cepcovi A.C."</b></h3>
+							<p><b>1er Lugar en Hackaton interno de Laboratoria México. Landing page para representar a la Asociación Cepcovi que busca combatir la violancia principalmente contra la mujer, proporcionando ayuda psicologica.</b></p>
+							<br>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    					<!-- carrousel-->
+			    					<ol class="carousel-indicators">
+			    					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="1"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="2"></li>
+			    					</ol>
+			    					<div class="carousel-inner" role="listbox">
+			    				    	<div class="item active">
+			    						    <a href="http://monicallerenas.github.io/cepcovi"><img src="images/proyectos/cepcovi.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+										<div class="item">
+			    						    <a href="http://monicallerenas.github.io/cepcovi"><img src="images/proyectos/cepcovi2.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+			    						<div class="item">
+			      						    <a href="http://monicallerenas.github.io/cepcovi"><img src="images/proyectos/cepcovi3.jpg" alt="Flower" width="460" height="345"></a>
+			      						</div>
+			    					</div>
+  								</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-12 col-lg-12">
-						<h2 class="subt p-proyecto"><b>"Flatheme"</b></h2>
-							<a href="http://monicallerenas.github.io/examen-fashion " target="_blank"><img class="img-work" src="images/flatheme.png"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-lg-12">
-					<h2 class="subt p-proyecto"><b>"Cepcovi A.C."</b></h2>
-					<p>Este fue un hackaton que hizo Laboratoria el cual se gano y el cliente ha quedado satisfecho, la Landing Page se llevara a la web</p>
-					<a href=" http://monicallerenas.github.io/cepcovi" target="_blank"><img class="img-work" src="images/cepcovi.jpg"></a>
-					
 				</div>
 			</div>
 		</div>
-		<div class="cuadro-gris">
-		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-12">
-					<p class="p-subt">Skills</p>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/html-5.png">
-						<div class="programa">
-							<p class="pro"><b>HTML 5</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/css-3.png">
-						<div class="programa">
-							<p class="pro"><b>CSS 3</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/sass.png">
-						<div class="programa">
-							<p class="pro"><b>SASS</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/javascript.png">
-						<div class="programa">
-							<p class="pro"><b>JAVASCRIPT</b></p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/jquery.png">
-						<div class="programa">
-							<p class="pro"><b>JQUERY</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/puzzle.png">
-						<div class="programa">
-							<p class="pro"><b>SCRATCH</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/github-sign.png">
-						<div class="programa">
-							<p class="pro"><b>GITHUB</b></p>
-						</div>	
-					</div>
-					<div class="col-xs-6 col-lg-3 proc">
-						<img class="icon" src="images/bootstrap.png">
-						<div class="programa">
-							<p class="pro"><b>BOOTSTRAP</b></p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-lg-4 proc">
-						<img class="icon" src="images/responsive.png">
-						<div class="programa">
-							<p class="pro"><b> WEB RESPONSIVE</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-4 proc">
-						<img class="icon" src="images/viral-marketing.png">
-						<div class="programa">
-							<p class="pro"><b>MARKETING DIGITAL</b></p>
-						</div>
-					</div>
-					<div class="col-xs-6 col-lg-4 proc">
-						<img class="icon" src="images/seo-tag.png">
-						<div class="programa">
-							<p class="pro"><b>MARKETING SEO</b></p>
+					<p class="subt text-center proyLab"><b>En Laboratoria México<b></p>
+					<div class="row">
+						<div class="col-xs-12 col-lg-6">
+							<h3 class="subt"><b>"Fashion"</b></h3>
+							<p><b>Ejercicio para evaluación en el que se implementaron conocimientos HTML, CSS, Booststrap y SASS. Extensión: 2 Landing page responsive para md y xs.</b></p>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    					<!-- carrousel-->
+			    					<ol class="carousel-indicators">
+			    					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="1"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="2"></li>
+			    					</ol>
+			    					<div class="carousel-inner" role="listbox">
+			    				    	<div class="item active">
+			    						    <a href="http://monicallerenas.github.io/examenFashion"><img src="images/proyectos/fasion.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+										<div class="item">
+			    						    <a href="http://monicallerenas.github.io/examenFashion"><img src="images/proyectos/fasion2.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+			    						<div class="item">
+			      						    <a href="http://monicallerenas.github.io/examenFashion"><img src="images/proyectos/fasion3.jpg" alt="Flower" width="460" height="345"></a>
+			      						</div>
+			    					</div>
+  								</div>
+							</div>
+						<div class="col-xs-12 col-lg-6">
+							<h3 class="subt"><b>"Flatheme"</b></h3>
+							<p><b>Ejercicio colaborativo en el que se implementaron conocimientos HTML, CSS y Booststrap. Extensión: 5 Landing page responsive para md y xs.</b></p>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    					<!-- carrousel-->
+			    					<ol class="carousel-indicators">
+			    					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="1"></li>
+			    					  <li data-target="#myCarousel" data-slide-to="2"></li>
+			    					</ol>
+			    					<div class="carousel-inner" role="listbox">
+			    				    	<div class="item active">
+			    						    <a href="http://monicallerenas.github.io/flat-port"><img src="images/proyectos/flatheme.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+										<div class="item">
+			    						    <a href="http://monicallerenas.github.io/flat-port"><img src="images/proyectos/flatheme2.jpg" alt="Chania" width="460" height="345"></a>
+			    						</div>
+			    						<div class="item">
+			      						    <a href="http://monicallerenas.github.io/flat-port"><img src="images/proyectos/flatheme3.jpg" alt="Flower" width="460" height="345"></a>
+			      						</div>
+			    					</div>
+  								</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	</section>
+	<section id="contactame">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12">
+				<p class="titulos"><b>Contactame</b></p>
+				<hr>
+				</div>	
+			</div>
+			<div class="row mt-5 mb-10 contacto">
+				<div class="col-lg-3 col-xs-4">
+					<a href="https://github.com/monicallerenas" title="github" target="_blank"><img class="img-responsive hov img-pie" src="images/github-sign.png" alt=""></a>
+				</div>
+				<div class="col-lg-3 col-xs-4">
+					<a href="https://mx.linkedin.com/in/karla-monica-llerenas-gutierrez-625a09107" title="linkedin" target="_blank"><img class="img-responsive hov img-pie" src="images/linkedin-sign.png" alt=""></a>
+				</div>
+				<div class="col-lg-3 col-xs-4">
+					<img class="img-responsive hov img-pie" src="images/whatsapp.png" alt="">
+					<p class="p-footer">044 55 40 66 21 49</p>
+				</div>
+				<div class="col-lg-3 col-xs-4">
+					<img class="img-responsive hov img-pie" src="images/gmail-logo.png" alt="">
+					<p class="p-footer">monicallerenas83@gmail.com</p>
+				</div>
+			</div>			
 		</div>
 	</section>
-	<footer>
-		<div class="pie">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-lg-4">
-					<a href="https://www.facebook.com/monikareloaded"><img src="images/facebook.png"></a>
-				</div>
-				<div class="col-xs-12 col-lg-4">
-					<a href="https://www.linkedin.com/in/karla-monica-llerenas-gutierrez-625a09107?trk=hp-identity-name"><img src="images/linkedin.png"></a>
-				</div>
-				<div class="col-xs-12 col-lg-4">
-					<a href="https://github.com/monicallerenas"><img src="images/github.png"></a>
+
+	<footer>	
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-xs-12">
+						<h4><b>© Laboratoria Mexico | Monica Llerenas | Portafolio 2016</b></h4>
+
+					</div>
 				</div>
 			</div>
-			<div class="row contacto">
-				<div class="col-xs-12 col-lg-6">
-					<div class="p-contacto"><img  src="images/gmail.png">
-					monicallerenas83@gmail.com</div>
-				</div>
-				<div class="col-xs-12 col-lg-6">
-					<div class="p-contacto"><img src="images/whats.png">
-					5540662149</div>
-
-				
-
+		</div>
 	</footer>
-	
-
-	
-
-
-	
-	
-	
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
